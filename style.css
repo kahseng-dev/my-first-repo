@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.split {
+    padding-left: 2%;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .split {
+        padding-left: 0;
+    }
+}
